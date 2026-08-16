@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Staffrone Ochieng Otieno — ICT & Cybersecurity Professional</title>
+<meta name="description" content="Portfolio of Staffrone Ochieng Otieno — ICT graduate, cybersecurity enthusiast and IT support professional." />
+
+<!-- Fonts: Space Grotesk (display), Inter (body), JetBrains Mono (data / utility) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<!-- Font Awesome (tech stack + contact icons) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- Scanline / grid backdrop layer -->
+<div class="bg-grid" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">
+      <span class="nav__logo-dot"></span>
+      STAFFRONE<span class="nav__logo-muted">_OTIENO.SYS</span>
+    </a>
+
+    <nav class="nav__links" id="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#design">Design</a>
+      <a href="#apps">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#tech">Tech Stack</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+
+    <button class="nav__burger" id="nav-burger" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero__inner">
+
+    <div class="hero__copy">
+      <p class="eyebrow"><span class="eyebrow__pulse"></span>SYSTEMS ONLINE — OPEN TO WORK</p>
+
+      <h1 class="hero__name">
+        Staffrone<br />
+        Ochieng&nbsp;Otieno
+      </h1>
+
+      <p class="hero__role">ICT Graduate &middot; Cybersecurity Enthusiast &middot; IT Support Professional</p>
+
+      <p class="hero__terminal">
+        <span class="prompt">guest@network:~$</span>
+        <span id="typewriter" class="typewriter"></span><span class="cursor">&#9608;</span>
+      </p>
+
+      <p class="hero__desc">
+        I keep networks running, systems secure and users unblocked — with hands-on
+        experience across banking IT, helpdesk support, infrastructure maintenance and
+        threat monitoring.
+      </p>
+
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary">
+          <i class="fa-solid fa-paper-plane"></i> Get In Touch
+        </a>
+        <a href="assets/Staffrone_Ochieng_Otieno_CV.pdf" class="btn btn--ghost" download>
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__value" data-count="4">0</span>
+          <span class="stat__label">Roles Held</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="5">0</span>
+          <span class="stat__label">Certifications</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="4">0</span>
+          <span class="stat__label">Projects Shipped</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="99" data-suffix="%">0</span>
+          <span class="stat__label">Ticket Resolution</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Device mockups: real dashboards from his own project work, not stock app icons -->
+    <div class="hero__devices" aria-hidden="true">
+      <div class="device device--back">
+        <div class="device__notch"></div>
+        <div class="device__screen">
+          <p class="device__title">TicketDesk <span class="tag tag--live">LIVE</span></p>
+          <div class="device__row"><span>#2291 — POS terminal offline</span><em class="pill pill--amber">Open</em></div>
+          <div class="device__row"><span>#2290 — VPN handshake fail</span><em class="pill pill--cyan">Assigned</em></div>
+          <div class="device__row"><span>#2288 — AD lockout, Teller 4</span><em class="pill pill--green">Resolved</em></div>
+          <div class="device__row"><span>#2287 — Printer queue stuck</span><em class="pill pill--green">Resolved</em></div>
+        </div>
+      </div>
+
+      <div class="device device--front">
+        <div class="device__notch"></div>
+        <div class="device__screen">
+          <p class="device__title">NetMonitor <span class="tag tag--live">LIVE</span></p>
+          <svg class="device__chart" viewBox="0 0 240 90" preserveAspectRatio="none">
+            <polyline class="device__chart-line" points="0,70 20,55 40,60 60,35 80,45 100,20 120,32 140,18 160,28 180,15 200,25 220,12 240,20" />
+          </svg>
+          <div class="device__grid">
+            <div><span class="dot dot--green"></span> Core Switch</div>
+            <div><span class="dot dot--green"></span> DHCP Server</div>
+            <div><span class="dot dot--amber"></span> Branch VPN</div>
+            <div><span class="dot dot--green"></span> ATM Link</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll to content"><span></span></a>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">01 &mdash; ABOUT</p>
+    <h2>Grounded in support.<br />Sharpened by security.</h2>
+  </div>
+
+  <div class="about__grid">
+    <div class="about__photo-wrap">
+      <div class="about__photo">
+        <img src="assets/background-image.jpeg" alt="Portrait of Staffrone Ochieng Otieno" />
+      </div>
+      <div class="about__photo-frame" aria-hidden="true"></div>
+    </div>
+
+    <div class="about__text">
+      <p>
+        I'm an ICT professional with a strong foundation in IT support, cybersecurity,
+        hardware maintenance, networking, customer support and enterprise systems.
+        My background spans technical support, cybersecurity operations, infrastructure
+        maintenance and digital banking environments &mdash; places where downtime isn't an
+        option and every ticket has a person waiting behind it.
+      </p>
+      <p>
+        I hold a Bachelor of Science in Information and Communication Technology
+        Management from Maseno University (2024), and I'm currently applying that
+        foundation on the front line of banking IT at DTB Bank.
+      </p>
+
+      <div class="about__facts">
+        <div class="fact">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div>
+            <strong>Maseno University</strong>
+            <span>B.Sc. Information &amp; Communication Technology Management, 2024</span>
+          </div>
+        </div>
+        <div class="fact">
+          <i class="fa-solid fa-school"></i>
+          <div>
+            <strong>Wiobiero Secondary School</strong>
+            <span>Kenya Certificate of Secondary Education (KCSE)</span>
+          </div>
+        </div>
+        <div class="fact">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <strong>Based in Kenya</strong>
+            <span>Available for on-site &amp; remote IT / security roles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE (TIMELINE) ============ -->
+<section class="section section--alt" id="experience">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">02 &mdash; EXPERIENCE</p>
+    <h2>Where I've kept the lights on.</h2>
+  </div>
+
+  <ol class="timeline">
+    <li class="timeline__item">
+      <div class="timeline__marker"></div>
+      <div class="timeline__card">
+        <span class="timeline__date">FEB 2026 — PRESENT</span>
+        <h3>ICT Support Technician (Reliever)</h3>
+        <p class="timeline__org">DTB Bank</p>
+        <ul>
+          <li>Troubleshoot and maintain mobile banking, ATM, internet banking and POS systems.</li>
+          <li>Install, configure and upgrade applications, DBMS and operating systems.</li>
+          <li>Provide first-line technical support for hardware and software issues.</li>
+          <li>Manage Active Directory user accounts and access profiles.</li>
+          <li>Support printers, scanners, teller systems, LAN/WAN and VPN connectivity.</li>
+          <li>Monitor systems proactively and liaise with third-party vendors.</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="timeline__item">
+      <div class="timeline__marker"></div>
+      <div class="timeline__card">
+        <span class="timeline__date">AUG 2025 — JAN 2026</span>
+        <h3>AMC Services Technician</h3>
+        <p class="timeline__org">AMC Services</p>
+        <ul>
+          <li>Managed servers, desktops and network devices.</li>
+          <li>Implemented preventive maintenance and performance monitoring.</li>
+          <li>Administered user accounts and endpoint security controls.</li>
+          <li>Provided Level 1 and Level 2 technical support.</li>
+          <li>Supported backups, disaster recovery planning and asset documentation.</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="timeline__item">
+      <div class="timeline__marker"></div>
+      <div class="timeline__card">
+        <span class="timeline__date">FEB 2025 — AUG 2025</span>
+        <h3>Intern</h3>
+        <p class="timeline__org">Computech Limited</p>
+        <ul>
+          <li>Gained practical experience in banking IT operations.</li>
+          <li>Supported IT infrastructure and digital banking solutions.</li>
+          <li>Assisted cybersecurity initiatives and compliance activities.</li>
+          <li>Collaborated with teams to improve business processes through technology.</li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="timeline__item">
+      <div class="timeline__marker"></div>
+      <div class="timeline__card">
+        <span class="timeline__date">ATTACHMENT</span>
+        <h3>Attachee</h3>
+        <p class="timeline__org">Tom Mboya University ICT Department</p>
+        <ul>
+          <li>Installed and configured computer hardware, software and networks.</li>
+          <li>Provided technical support and troubleshooting.</li>
+          <li>Assisted database management and e-learning administration.</li>
+          <li>Maintained ICT equipment and ensured system efficiency.</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">03 &mdash; SKILLS</p>
+    <h2>Competency readout.</h2>
+    <p class="section__sub">Self-assessed proficiency, calibrated against real ticket load and lab work.</p>
+  </div>
+
+  <div class="skills">
+    <div class="skill" data-level="92">
+      <div class="skill__head"><span>IT Support &amp; Helpdesk</span><span class="skill__pct">92%</span></div>
+      <div class="skill__bar"><div class="skill__fill"></div></div>
+    </div>
+    <div class="skill" data-level="85">
+      <div class="skill__head"><span>Networking (LAN/WAN/VPN)</span><span class="skill__pct">85%</span></div>
+      <div class="skill__bar"><div class="skill__fill"></div></div>
+    </div>
+    <div class="skill" data-level="80">
+      <div class="skill__head"><span>Cybersecurity Operations</span><span class="skill__pct">80%</span></div>
+      <div class="skill__bar"><div class="skill__fill"></div></div>
+    </div>
+    <div class="skill" data-level="82">
+      <div class="skill__head"><span>Systems Administration (AD / DBMS)</span><span class="skill__pct">82%</span></div>
+      <div class="skill__bar"><div class="skill__fill"></div></div>
+    </div>
+    <div class="skill" data-level="75">
+      <div class="skill__head"><span>Hardware Maintenance</span><span class="skill__pct">75%</span></div>
+      <div class="skill__bar"><div class="skill__fill"></div></div>
+    </div>
+    <div class="skill" data-level="68">
+      <div class="skill__head"><span>Cloud, Virtualization &amp; Automation</span><span class="skill__pct">68%</span></div>
+      <div class="skill__bar"><div class="skill__fill"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESIGN / FIGMA PROJECTS ============ -->
+<section class="section section--alt" id="design">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">04 &mdash; FIGMA PROJECTS</p>
+    <h2>Interfaces I've mapped out.</h2>
+    <p class="section__sub">Dashboard &amp; system layouts designed in Figma to plan the tools above before they were built.</p>
+  </div>
+
+  <div class="figma-grid">
+    <!-- Replace the .figma-card__preview contents with a real Figma embed
+         (Share > Embed) or a screenshot when available. -->
+    <article class="figma-card" data-reveal>
+      <div class="figma-card__preview figma-card__preview--net">
+        <span class="figma-card__browser-dot"></span><span class="figma-card__browser-dot"></span><span class="figma-card__browser-dot"></span>
+      </div>
+      <h3>Network Monitoring Dashboard</h3>
+      <p>Wireframe for a live uptime &amp; traffic view of core switches, VPN links and ATM connections.</p>
+      <span class="tag">Figma &middot; UI Wireframe</span>
+    </article>
+
+    <article class="figma-card" data-reveal>
+      <div class="figma-card__preview figma-card__preview--ticket">
+        <span class="figma-card__browser-dot"></span><span class="figma-card__browser-dot"></span><span class="figma-card__browser-dot"></span>
+      </div>
+      <h3>IT Ticketing System UI</h3>
+      <p>Helpdesk queue layout designed to prioritise urgent hardware faults over routine requests.</p>
+      <span class="tag">Figma &middot; Product Design</span>
+    </article>
+
+    <article class="figma-card" data-reveal>
+      <div class="figma-card__preview figma-card__preview--risk">
+        <span class="figma-card__browser-dot"></span><span class="figma-card__browser-dot"></span><span class="figma-card__browser-dot"></span>
+      </div>
+      <h3>Risk Assessment Report Layout</h3>
+      <p>Scan-to-summary report template used to communicate vulnerabilities to non-technical stakeholders.</p>
+      <span class="tag">Figma &middot; Documentation</span>
+    </article>
+  </div>
+</section>
+
+<!-- ============ FEATURED APPS / PROJECTS ============ -->
+<section class="section" id="apps">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">05 &mdash; PROJECTS</p>
+    <h2>Featured builds.</h2>
+  </div>
+
+  <div class="apps-grid">
+    <article class="app-card" data-reveal>
+      <div class="app-card__icon"><i class="fa-solid fa-shield-halved"></i></div>
+      <h3>Cybersecurity Risk Assessment</h3>
+      <p>Conducted vulnerability assessments and documented security recommendations for a live environment.</p>
+      <span class="pill pill--cyan">Deployed</span>
+    </article>
+
+    <article class="app-card" data-reveal>
+      <div class="app-card__icon"><i class="fa-solid fa-headset"></i></div>
+      <h3>IT Support Ticketing System</h3>
+      <p>Designed a helpdesk solution for tracking and resolving support requests end-to-end.</p>
+      <span class="pill pill--cyan">Deployed</span>
+    </article>
+
+    <article class="app-card" data-reveal>
+      <div class="app-card__icon"><i class="fa-solid fa-diagram-project"></i></div>
+      <h3>Network Monitoring Lab</h3>
+      <p>Configured tools to monitor network traffic in real time and flag emerging threats.</p>
+      <span class="pill pill--green">Active</span>
+    </article>
+
+    <article class="app-card" data-reveal>
+      <div class="app-card__icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+      <h3>Hardware Upgrade &amp; Maintenance</h3>
+      <p>Performed upgrades, troubleshooting and preventive maintenance across desktop &amp; teller hardware.</p>
+      <span class="pill pill--green">Ongoing</span>
+    </article>
+  </div>
+</section>
+
+<!-- ============ WORK GALLERY ============ -->
+<section class="section section--alt" id="gallery">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">06 &mdash; WORK GALLERY</p>
+    <h2>Hardware I've had open.</h2>
+    <p class="section__sub">A look at real repair &amp; upgrade work &mdash; screens, boards and builds handled hands-on.</p>
+  </div>
+
+  <div class="gallery-grid">
+    <!-- To add more photos: copy a .gallery-card block, point the img src at
+         assets/work-photos/<your-file>, and edit the caption text. -->
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/laptop-screen-replacement.jpeg" alt="Laptop screen and internal components being serviced" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Screen &amp; Panel Replacement</span>
+        <span class="gallery-card__sub">Diagnosing and replacing a failed LCD panel, with the board and hinge assembly exposed.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/ram-hdd-upgrade.jpeg" alt="Laptop opened for RAM and hard drive upgrade" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">RAM &amp; Storage Upgrade</span>
+        <span class="gallery-card__sub">A Lenovo ThinkPad opened up for a memory and hard drive upgrade to improve performance.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/hp-motherboard-diagnostics.jpeg" alt="HP laptop motherboard removed for diagnostics" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Motherboard Diagnostics</span>
+        <span class="gallery-card__sub">Full teardown of an HP laptop to inspect the motherboard, cooling system and storage.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/laptop-chassis-teardown.jpeg" alt="Laptop chassis fully disassembled on a workbench" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Full Chassis Teardown</span>
+        <span class="gallery-card__sub">Complete disassembly for a deep clean and component-level fault-finding.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/dual-laptop-repair-bench.jpeg" alt="Two laptops disassembled side by side on a repair bench" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Multi-Unit Repair Bench</span>
+        <span class="gallery-card__sub">Running two repairs in parallel &mdash; screen and motherboard work side by side.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/keyboard-deck-teardown.jpeg" alt="Laptop opened like a book showing keyboard deck and motherboard" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Keyboard Deck &amp; Cooling</span>
+        <span class="gallery-card__sub">Inspecting the keyboard deck, fan assembly and RAM module during a routine service.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/battery-wireless-inspection.jpeg" alt="Laptop internals showing battery, fan and wireless card" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Battery &amp; Wireless Card Check</span>
+        <span class="gallery-card__sub">Inspecting the battery, cooling fan and wireless card for wear and connectivity issues.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/lenovo-battery-check.jpeg" alt="Lenovo laptop opened for battery and memory check" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Battery &amp; Memory Diagnostics</span>
+        <span class="gallery-card__sub">Checking battery health and memory seating on a Lenovo ThinkPad.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/ram-hdd-upgrade-closeup.jpeg" alt="Close-up of RAM module and hard drive during a laptop upgrade" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Memory &amp; Drive Close-Up</span>
+        <span class="gallery-card__sub">A closer look at the RAM module and hard drive during an upgrade job.</span>
+      </figcaption>
+    </figure>
+
+    <figure class="gallery-card" data-reveal>
+      <div class="gallery-card__frame">
+        <img src="assets/work-photos/full-teardown-lapview.jpeg" alt="Fully disassembled laptop internals viewed up close" />
+      </div>
+      <figcaption class="gallery-card__caption">
+        <span class="gallery-card__title">Complete Internal Breakdown</span>
+        <span class="gallery-card__sub">Every component exposed &mdash; board, cooling, storage and memory all laid bare for a full diagnostic pass.</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ VALUES ============ -->
+<section class="section" id="values">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">07 &mdash; VALUES</p>
+    <h2>What I bring to a team.</h2>
+    <p class="section__sub">Click a card to see how each one shows up in real work.</p>
+  </div>
+
+  <div class="values-grid">
+    <button type="button" class="value" data-reveal data-detail="detail-efficiency">
+      <i class="fa-solid fa-bolt"></i><h4>Efficiency</h4><p>Rapid troubleshooting across multiple platforms.</p>
+    </button>
+    <button type="button" class="value" data-reveal data-detail="detail-productivity">
+      <i class="fa-solid fa-arrow-trend-up"></i><h4>Productivity</h4><p>Strong customer support and helpdesk capabilities.</p>
+    </button>
+    <button type="button" class="value" data-reveal data-detail="detail-reliability">
+      <i class="fa-solid fa-shield"></i><h4>Reliability</h4><p>Proven ability to maintain secure and stable IT environments.</p>
+    </button>
+    <button type="button" class="value" data-reveal data-detail="detail-cybersecurity">
+      <i class="fa-solid fa-user-secret"></i><h4>Cybersecurity Strength</h4><p>Hands-on threat detection, intrusion analysis and risk assessment with Security Onion &amp; Cisco Packet Tracer.</p>
+    </button>
+    <button type="button" class="value" data-reveal data-detail="detail-process">
+      <i class="fa-solid fa-list-check"></i><h4>Process Excellence</h4><p>ITIL Foundation knowledge aligned with industry best practice.</p>
+    </button>
+    <button type="button" class="value" data-reveal data-detail="detail-innovation">
+      <i class="fa-solid fa-cloud"></i><h4>Innovation</h4><p>Working knowledge of virtualization, cloud and DevOps principles.</p>
+    </button>
+    <button type="button" class="value" data-reveal data-detail="detail-communication">
+      <i class="fa-solid fa-comments"></i><h4>Communication</h4><p>Explaining technical solutions clearly to technical and non-technical users alike.</p>
+    </button>
+  </div>
+</section>
+
+<!-- ============ VALUE DETAIL MODAL ============ -->
+<div class="value-modal" id="value-modal" aria-hidden="true">
+  <div class="value-modal__backdrop" data-modal-close></div>
+  <div class="value-modal__panel" role="dialog" aria-modal="true" aria-labelledby="value-modal-title">
+    <button type="button" class="value-modal__close" data-modal-close aria-label="Close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="value-modal__icon"><i id="value-modal-icon" class="fa-solid fa-bolt"></i></div>
+    <h3 id="value-modal-title">Efficiency</h3>
+    <p id="value-modal-body">Detail text goes here.</p>
+  </div>
+</div>
+
+<!-- Data source for modal content — id must match each button's data-detail -->
+<script id="value-details" type="application/json">
+{
+  "detail-efficiency": {
+    "icon": "fa-solid fa-bolt",
+    "title": "Efficiency",
+    "body": "Built through hands-on ticket resolution at DTB Bank and AMC Services, where fast, accurate diagnosis across Windows, POS and ATM systems kept downtime to a minimum and users back to work quickly."
+  },
+  "detail-productivity": {
+    "icon": "fa-solid fa-arrow-trend-up",
+    "title": "Productivity",
+    "body": "Strengthened through helpdesk work supporting mobile banking, ATM and POS systems, where clear communication and quick, correct fixes kept both users and branch operations moving without delay."
+  },
+  "detail-reliability": {
+    "icon": "fa-solid fa-shield",
+    "title": "Reliability",
+    "body": "Demonstrated by maintaining secure, stable banking IT infrastructure — from Active Directory access to LAN/WAN/VPN connectivity — with a consistent focus on uptime across Head Office and branch systems."
+  },
+  "detail-cybersecurity": {
+    "icon": "fa-solid fa-user-secret",
+    "title": "Cybersecurity Strength",
+    "body": "Developed through cybersecurity coursework and certifications — including Ethical Hacking, Network Security & Cryptography, and Cyber Threat Management — combined with hands-on labs using Security Onion for intrusion analysis and Cisco Packet Tracer for network simulation."
+  },
+  "detail-process": {
+    "icon": "fa-solid fa-list-check",
+    "title": "Process Excellence",
+    "body": "Grounded in ITIL Foundation v5 training and applied daily through structured incident logging, SLA-driven ticket handling and clear documentation of every resolution."
+  },
+  "detail-innovation": {
+    "icon": "fa-solid fa-cloud",
+    "title": "Innovation",
+    "body": "Built through self-directed learning in virtualization, cloud computing and DevOps principles, with a genuine interest in how automation can streamline routine IT support work."
+  },
+  "detail-communication": {
+    "icon": "fa-solid fa-comments",
+    "title": "Communication",
+    "body": "Sharpened through direct, daily interaction with bank staff and customers — translating technical issues into plain language so non-technical users feel informed, not confused."
+  }
+}
+</script>
+
+<!-- ============ TECH STACK ============ -->
+<section class="section" id="tech">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">08 &mdash; TECH STACK</p>
+    <h2>Tools of the trade.</h2>
+  </div>
+
+  <div class="tech-grid">
+    <div class="tech-item" data-reveal><i class="fa-solid fa-network-wired"></i><span>LAN / WAN / VPN</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-users-gear"></i><span>Active Directory</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-database"></i><span>DBMS / SQL</span></div>
+    <div class="tech-item" data-reveal><i class="fa-brands fa-windows"></i><span>Windows Server</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-satellite-dish"></i><span>Security Onion</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-sitemap"></i><span>Cisco Packet Tracer</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-cloud-arrow-up"></i><span>Virtualization &amp; Cloud</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-credit-card"></i><span>POS / ATM Systems</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-ticket"></i><span>Helpdesk / ITIL</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-print"></i><span>Printers &amp; Peripherals</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-server"></i><span>Backup &amp; DR Planning</span></div>
+    <div class="tech-item" data-reveal><i class="fa-solid fa-magnifying-glass-chart"></i><span>Threat Monitoring</span></div>
+  </div>
+
+  <div class="certs">
+    <p class="certs__label">Certifications</p>
+    <div class="certs__row">
+      <span class="cert-chip"><i class="fa-solid fa-certificate"></i> ITIL Foundation v5</span>
+      <span class="cert-chip"><i class="fa-solid fa-certificate"></i> CompTIA A+ 1000 Part 1</span>
+      <span class="cert-chip"><i class="fa-solid fa-certificate"></i> CompTIA A+ 1000 Part 2</span>
+      <span class="cert-chip"><i class="fa-solid fa-certificate"></i> CyberOps Associate</span>
+      <span class="cert-chip"><i class="fa-solid fa-certificate"></i> Cisco Cybersecurity Specialist</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section section--alt" id="contact">
+  <div class="section__head">
+    <p class="eyebrow eyebrow--static">09 &mdash; CONTACT</p>
+    <h2>Let's fix something together.</h2>
+    <p class="section__sub">Open to IT support, systems administration and cybersecurity roles.</p>
+  </div>
+
+  <div class="contact__grid">
+    <div class="contact__info">
+      <a class="contact__row" href="mailto:staffroneochieng02@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <div><strong>Email</strong><span>staffroneochieng02@gmail.com</span></div>
+      </a>
+      <a class="contact__row" href="tel:+254113029352">
+        <i class="fa-solid fa-phone"></i>
+        <div><strong>Phone</strong><span>0113 029 352</span></div>
+      </a>
+      <a class="contact__row" href="https://linkedin.com/in/staffrone-otieno-17a885407" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin"></i>
+        <div><strong>LinkedIn</strong><span>linkedin.com/in/staffrone-otieno-17a885407</span></div>
+      </a>
+    </div>
+
+    <form class="contact__form" id="contact-form" novalidate>
+      <div class="form__row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+      </div>
+      <div class="form__row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@company.com" required />
+      </div>
+      <div class="form__row">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Role, project or opportunity" required />
+      </div>
+      <div class="form__row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about what you need..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn--primary btn--block">
+        <i class="fa-solid fa-paper-plane"></i> Send Message
+      </button>
+      <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2026 Staffrone Ochieng Otieno. All rights reserved.</p>
+  <a href="#top" class="footer__top">Back to top ↑</a>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
