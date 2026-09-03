@@ -1,0 +1,122 @@
+[
+  {
+    "file": "IMG_20250613_193416.jpg",
+    "title": "Replacement Battery Verification",
+    "sub": "A genuine HP rechargeable battery pack checked against the original before installation."
+  },
+  {
+    "file": "IMG_20250616_102048.jpg",
+    "title": "Multi-Desktop Bench Setup",
+    "sub": "Three desktop towers staged back-to-back with a shared monitor and keyboard for batch servicing."
+  },
+  {
+    "file": "battery-wireless-inspection.jpeg",
+    "title": "Battery & Wireless Card Check",
+    "sub": "Inspecting the battery, cooling fan and wireless card for wear and connectivity issues."
+  },
+  {
+    "file": "dell-laptop-battery-motherboard.jpg",
+    "title": "Dell Battery & Board Diagnostics",
+    "sub": "A Dell laptop opened to inspect the motherboard, SSD slot and battery health."
+  },
+  {
+    "file": "desktop-rebuild-workstation.jpg",
+    "title": "Desktop Rebuild Bench",
+    "sub": "A workstation set up for rebuilding and testing multiple desktop towers side by side."
+  },
+  {
+    "file": "desktop-tower-hdd-fan-install.jpg",
+    "title": "Desktop Tower HDD & Fan Install",
+    "sub": "A desktop tower opened outdoors for a hard drive and cooling fan installation."
+  },
+  {
+    "file": "dual-laptop-repair-bench.jpeg",
+    "title": "Multi-Unit Repair Bench",
+    "sub": "Running two repairs in parallel — screen and motherboard work side by side."
+  },
+  {
+    "file": "full-teardown-lapview.jpeg",
+    "title": "Complete Internal Breakdown",
+    "sub": "Every component exposed — board, cooling, storage and memory all laid bare for a full diagnostic pass."
+  },
+  {
+    "file": "hp-battery-replacement-part.jpg",
+    "title": "Replacement Battery Prep",
+    "sub": "A genuine HP replacement battery unwrapped and prepped ahead of installation."
+  },
+  {
+    "file": "hp-motherboard-diagnostics.jpeg",
+    "title": "Motherboard Diagnostics",
+    "sub": "Full teardown of an HP laptop to inspect the motherboard, cooling system and storage."
+  },
+  {
+    "file": "hp-probook-bsod-diagnosis.jpg",
+    "title": "Crash Diagnosis & Recovery",
+    "sub": "An HP ProBook showing a stop-code crash mid-diagnosis, tracing the fault back to a corrupted driver."
+  },
+  {
+    "file": "keyboard-deck-teardown.jpeg",
+    "title": "Keyboard Deck & Cooling",
+    "sub": "Inspecting the keyboard deck, fan assembly and RAM module during a routine service."
+  },
+  {
+    "file": "laptop-chassis-reassembly.jpg",
+    "title": "Chassis Reassembly",
+    "sub": "Reassembling a laptop's palm rest and trackpad after internal repair work."
+  },
+  {
+    "file": "laptop-chassis-teardown.jpeg",
+    "title": "Full Chassis Teardown",
+    "sub": "Complete disassembly for a deep clean and component-level fault-finding."
+  },
+  {
+    "file": "laptop-motherboard-close-inspection.jpeg",
+    "title": "Close-Up Board Inspection",
+    "sub": "A tight inspection of the motherboard layout, RAM module and cooling assembly."
+  },
+  {
+    "file": "laptop-motherboard-fan-service.jpeg",
+    "title": "Motherboard & Fan Servicing",
+    "sub": "Laptop opened for a fan and thermal service, with the keyboard deck lifted clear of the board."
+  },
+  {
+    "file": "laptop-screen-replacement.jpeg",
+    "title": "Screen & Panel Replacement",
+    "sub": "Diagnosing and replacing a failed LCD panel, with the board and hinge assembly exposed."
+  },
+  {
+    "file": "lenovo-battery-check.jpeg",
+    "title": "Battery & Memory Diagnostics",
+    "sub": "Checking battery health and memory seating on a Lenovo ThinkPad."
+  },
+  {
+    "file": "multi-unit-workstation-setup.jpg",
+    "title": "Multi-Unit Workstation Setup",
+    "sub": "Several desktop units staged and cabled together for a batch diagnostics and imaging session."
+  },
+  {
+    "file": "ram-hdd-upgrade-closeup.jpeg",
+    "title": "Memory & Drive Close-Up",
+    "sub": "A closer look at the RAM module and hard drive during an upgrade job."
+  },
+  {
+    "file": "ram-hdd-upgrade.jpeg",
+    "title": "RAM & Storage Upgrade",
+    "sub": "A Lenovo ThinkPad opened up for a memory and hard drive upgrade to improve performance."
+  },
+  {
+    "file": "ram-ssd-parts-collection.jpg",
+    "title": "RAM & SSD Parts Inventory",
+    "sub": "A laid-out collection of RAM sticks, SSDs and NVMe drives ready for upgrade jobs."
+  },
+  {
+    "file": "remote-diagnostics-research.jpeg",
+    "title": "Remote Diagnostics Research",
+    "sub": "Researching repair references and technical documentation to support an ongoing diagnosis."
+  },
+  {
+    "file": "ssd-enclosure-data-recovery.jpg",
+    "title": "External SSD Data Recovery",
+    "sub": "A 512GB SSD mounted in a USB enclosure for data recovery and transfer work."
+  }
+]
