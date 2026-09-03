@@ -266,7 +266,9 @@ function initContactForm() {
   const status = document.getElementById("form-status");
   if (!form || !status) return;
 
-  form.addEventListener("submit", (e) => {
+  const submitBtn = form.querySelector('button[type="submit"]');
+
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     if (!form.checkValidity()) {
@@ -275,10 +277,31 @@ function initContactForm() {
       return;
     }
 
-    // Placeholder success state — connect a real form handler here.
-    status.textContent = "Message ready — connect a form handler (e.g. Formspree) to deliver it.";
-    status.style.color = "var(--accent-cyan)";
-    form.reset();
+    if (submitBtn) submitBtn.disabled = true;
+    status.textContent = "Sending...";
+    status.style.color = "var(--text-muted)";
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+
+      if (response.ok) {
+        status.textContent = "Message sent — thanks for reaching out, I'll reply soon.";
+        status.style.color = "var(--accent-cyan)";
+        form.reset();
+      } else {
+        status.textContent = "Something went wrong sending that. Please email me directly instead.";
+        status.style.color = "var(--accent-pink)";
+      }
+    } catch (err) {
+      status.textContent = "Network error — please check your connection or email me directly.";
+      status.style.color = "var(--accent-pink)";
+    } finally {
+      if (submitBtn) submitBtn.disabled = false;
+    }
   });
 }
 
