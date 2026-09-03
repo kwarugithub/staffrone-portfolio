@@ -385,109 +385,139 @@
     <p class="section__sub">A look at real repair &amp; upgrade work &mdash; screens, boards and builds handled hands-on.</p>
   </div>
 
-  <div class="gallery-grid">
-    <!-- To add more photos: copy a .gallery-card block, point the img src at
-         assets/work-photos/<your-file>, and edit the caption text. -->
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/laptop-screen-replacement.jpeg" alt="Laptop screen and internal components being serviced" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Screen &amp; Panel Replacement</span>
-        <span class="gallery-card__sub">Diagnosing and replacing a failed LCD panel, with the board and hinge assembly exposed.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/ram-hdd-upgrade.jpeg" alt="Laptop opened for RAM and hard drive upgrade" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">RAM &amp; Storage Upgrade</span>
-        <span class="gallery-card__sub">A Lenovo ThinkPad opened up for a memory and hard drive upgrade to improve performance.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/hp-motherboard-diagnostics.jpeg" alt="HP laptop motherboard removed for diagnostics" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Motherboard Diagnostics</span>
-        <span class="gallery-card__sub">Full teardown of an HP laptop to inspect the motherboard, cooling system and storage.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/laptop-chassis-teardown.jpeg" alt="Laptop chassis fully disassembled on a workbench" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Full Chassis Teardown</span>
-        <span class="gallery-card__sub">Complete disassembly for a deep clean and component-level fault-finding.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/dual-laptop-repair-bench.jpeg" alt="Two laptops disassembled side by side on a repair bench" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Multi-Unit Repair Bench</span>
-        <span class="gallery-card__sub">Running two repairs in parallel &mdash; screen and motherboard work side by side.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/keyboard-deck-teardown.jpeg" alt="Laptop opened like a book showing keyboard deck and motherboard" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Keyboard Deck &amp; Cooling</span>
-        <span class="gallery-card__sub">Inspecting the keyboard deck, fan assembly and RAM module during a routine service.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/battery-wireless-inspection.jpeg" alt="Laptop internals showing battery, fan and wireless card" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Battery &amp; Wireless Card Check</span>
-        <span class="gallery-card__sub">Inspecting the battery, cooling fan and wireless card for wear and connectivity issues.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/lenovo-battery-check.jpeg" alt="Lenovo laptop opened for battery and memory check" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Battery &amp; Memory Diagnostics</span>
-        <span class="gallery-card__sub">Checking battery health and memory seating on a Lenovo ThinkPad.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/ram-hdd-upgrade-closeup.jpeg" alt="Close-up of RAM module and hard drive during a laptop upgrade" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Memory &amp; Drive Close-Up</span>
-        <span class="gallery-card__sub">A closer look at the RAM module and hard drive during an upgrade job.</span>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-card" data-reveal>
-      <div class="gallery-card__frame">
-        <img src="assets/work-photos/full-teardown-lapview.jpeg" alt="Fully disassembled laptop internals viewed up close" />
-      </div>
-      <figcaption class="gallery-card__caption">
-        <span class="gallery-card__title">Complete Internal Breakdown</span>
-        <span class="gallery-card__sub">Every component exposed &mdash; board, cooling, storage and memory all laid bare for a full diagnostic pass.</span>
-      </figcaption>
-    </figure>
+  <div class="gallery-grid" id="gallery-grid">
+    <!-- This grid fills itself in automatically from the JSON below,
+         which is kept in sync with assets/work-photos/gallery.json.
+         To add a photo: drop the file into assets/work-photos/,
+         run `node generate-manifest.js`, then refresh — no server needed,
+         double-clicking index.html works too. Do not hand-edit the
+         block below; it's regenerated automatically. -->
   </div>
+
+  <script id="gallery-data" type="application/json">
+[
+  {
+    "file": "IMG_20250613_193416.jpg",
+    "title": "Replacement Battery Verification",
+    "sub": "A genuine HP rechargeable battery pack checked against the original before installation."
+  },
+  {
+    "file": "IMG_20250616_102048.jpg",
+    "title": "Multi-Desktop Bench Setup",
+    "sub": "Three desktop towers staged back-to-back with a shared monitor and keyboard for batch servicing."
+  },
+  {
+    "file": "battery-wireless-inspection.jpeg",
+    "title": "Battery & Wireless Card Check",
+    "sub": "Inspecting the battery, cooling fan and wireless card for wear and connectivity issues."
+  },
+  {
+    "file": "dell-laptop-battery-motherboard.jpg",
+    "title": "Dell Battery & Board Diagnostics",
+    "sub": "A Dell laptop opened to inspect the motherboard, SSD slot and battery health."
+  },
+  {
+    "file": "desktop-rebuild-workstation.jpg",
+    "title": "Desktop Rebuild Bench",
+    "sub": "A workstation set up for rebuilding and testing multiple desktop towers side by side."
+  },
+  {
+    "file": "desktop-tower-hdd-fan-install.jpg",
+    "title": "Desktop Tower HDD & Fan Install",
+    "sub": "A desktop tower opened outdoors for a hard drive and cooling fan installation."
+  },
+  {
+    "file": "dual-laptop-repair-bench.jpeg",
+    "title": "Multi-Unit Repair Bench",
+    "sub": "Running two repairs in parallel — screen and motherboard work side by side."
+  },
+  {
+    "file": "full-teardown-lapview.jpeg",
+    "title": "Complete Internal Breakdown",
+    "sub": "Every component exposed — board, cooling, storage and memory all laid bare for a full diagnostic pass."
+  },
+  {
+    "file": "hp-battery-replacement-part.jpg",
+    "title": "Replacement Battery Prep",
+    "sub": "A genuine HP replacement battery unwrapped and prepped ahead of installation."
+  },
+  {
+    "file": "hp-motherboard-diagnostics.jpeg",
+    "title": "Motherboard Diagnostics",
+    "sub": "Full teardown of an HP laptop to inspect the motherboard, cooling system and storage."
+  },
+  {
+    "file": "hp-probook-bsod-diagnosis.jpg",
+    "title": "Crash Diagnosis & Recovery",
+    "sub": "An HP ProBook showing a stop-code crash mid-diagnosis, tracing the fault back to a corrupted driver."
+  },
+  {
+    "file": "keyboard-deck-teardown.jpeg",
+    "title": "Keyboard Deck & Cooling",
+    "sub": "Inspecting the keyboard deck, fan assembly and RAM module during a routine service."
+  },
+  {
+    "file": "laptop-chassis-reassembly.jpg",
+    "title": "Chassis Reassembly",
+    "sub": "Reassembling a laptop's palm rest and trackpad after internal repair work."
+  },
+  {
+    "file": "laptop-chassis-teardown.jpeg",
+    "title": "Full Chassis Teardown",
+    "sub": "Complete disassembly for a deep clean and component-level fault-finding."
+  },
+  {
+    "file": "laptop-motherboard-close-inspection.jpeg",
+    "title": "Close-Up Board Inspection",
+    "sub": "A tight inspection of the motherboard layout, RAM module and cooling assembly."
+  },
+  {
+    "file": "laptop-motherboard-fan-service.jpeg",
+    "title": "Motherboard & Fan Servicing",
+    "sub": "Laptop opened for a fan and thermal service, with the keyboard deck lifted clear of the board."
+  },
+  {
+    "file": "laptop-screen-replacement.jpeg",
+    "title": "Screen & Panel Replacement",
+    "sub": "Diagnosing and replacing a failed LCD panel, with the board and hinge assembly exposed."
+  },
+  {
+    "file": "lenovo-battery-check.jpeg",
+    "title": "Battery & Memory Diagnostics",
+    "sub": "Checking battery health and memory seating on a Lenovo ThinkPad."
+  },
+  {
+    "file": "multi-unit-workstation-setup.jpg",
+    "title": "Multi-Unit Workstation Setup",
+    "sub": "Several desktop units staged and cabled together for a batch diagnostics and imaging session."
+  },
+  {
+    "file": "ram-hdd-upgrade-closeup.jpeg",
+    "title": "Memory & Drive Close-Up",
+    "sub": "A closer look at the RAM module and hard drive during an upgrade job."
+  },
+  {
+    "file": "ram-hdd-upgrade.jpeg",
+    "title": "RAM & Storage Upgrade",
+    "sub": "A Lenovo ThinkPad opened up for a memory and hard drive upgrade to improve performance."
+  },
+  {
+    "file": "ram-ssd-parts-collection.jpg",
+    "title": "RAM & SSD Parts Inventory",
+    "sub": "A laid-out collection of RAM sticks, SSDs and NVMe drives ready for upgrade jobs."
+  },
+  {
+    "file": "remote-diagnostics-research.jpeg",
+    "title": "Remote Diagnostics Research",
+    "sub": "Researching repair references and technical documentation to support an ongoing diagnosis."
+  },
+  {
+    "file": "ssd-enclosure-data-recovery.jpg",
+    "title": "External SSD Data Recovery",
+    "sub": "A 512GB SSD mounted in a USB enclosure for data recovery and transfer work."
+  }
+]
+  </script>
 </section>
 
 <!-- ============ VALUES ============ -->
@@ -533,6 +563,18 @@
     <div class="value-modal__icon"><i id="value-modal-icon" class="fa-solid fa-bolt"></i></div>
     <h3 id="value-modal-title">Efficiency</h3>
     <p id="value-modal-body">Detail text goes here.</p>
+  </div>
+</div>
+
+<!-- ============ LIGHTBOX (zoomable gallery photos) ============ -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" data-lightbox-close></div>
+  <div class="lightbox__panel" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption">
+    <button type="button" class="lightbox__close" data-lightbox-close aria-label="Close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <img class="lightbox__img" id="lightbox-img" src="" alt="" />
+    <p class="lightbox__caption" id="lightbox-caption"></p>
   </div>
 </div>
 
@@ -665,6 +707,7 @@
   <a href="#top" class="footer__top">Back to top ↑</a>
 </footer>
 
+<script src="js/gallery-loader.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
